@@ -1,0 +1,29 @@
+
+```bash
+pip install requests
+```
+
+```python
+import requests
+
+# Define the GitHub repository you want to work with
+owner = "OVERGEEK15"
+repo = "chatbotty"
+
+# Make a GET request to the GitHub API to fetch repository information
+url = f"https://api.github.com/repos/{owner}/{repo}"
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse the JSON response
+    repo_data = response.json()
+    
+    # Print some repository information
+    print(f"Repository Name: {repo_data['name']}")
+    print(f"Description: {repo_data['description']}")
+    print(f"Stars: {repo_data['stargazers_count']}")
+    print(f"Forks: {repo_data['forks_count']}")
+else:
+    print(f"Failed to fetch repository information. Status code: {response.status_code}")
+```
