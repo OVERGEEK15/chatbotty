@@ -1,4 +1,3 @@
-
 import random
 
 # Define a list of greetings and responses
