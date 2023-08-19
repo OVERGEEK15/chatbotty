@@ -1,4 +1,3 @@
-# ChatBotty 
 ChatBotty is a versatile chatbot application designed to assist users in various domains. It combines natural language processing, machine learning, and AI technologies to provide a seamless conversational experience. ChatBotty is designed with both personal and business applications in mind, offering a wide range of features and functionalities.
 
 **Key Features:**
