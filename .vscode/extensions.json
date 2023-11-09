@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "bmcsoftware.jobs-as-code"
+        "bmcsoftware.jobs-as-code",
+        "vadimcn.vscode-lldb"
     ]
 }
